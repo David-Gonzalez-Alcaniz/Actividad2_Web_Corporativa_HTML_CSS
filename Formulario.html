@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="IMG/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Formulario Breaking Bad</title>
+</head>
+<body class="bodyformulario">
+    <h1>Breaking Bad - Que comience el juego!</h1>
+    <form action="mailto:raulrodriguez@proeducaglobal.com" method="post" name="formulario" autocomplete="on" target="_blank">
+        <fieldset id="fondoform">
+            <fieldset>
+                <legend>DATOS PERSONALES</legend>
+                <span>Nombre:</span> <input type="text" placeholder="Ej: David" required>
+                <span>Apellidos:</span> <input type="text" placeholder="Ej: González Alcañiz" required>
+                <span>Dirección postal (calle, número, piso, CP, ciudad):</span> <input type="text" placeholder="Ej: Avenida del Sol 3, 4ºD, 28001, Madrid">
+                <span>DNI:</span> <input type="text" placeholder="Ej: 50368798A">
+                <span>Correo electrónico:</span> <input type="text" placeholder="Ej: david@unir.pf" required>
+                <span>Sexo:</span>
+                <input type="radio" name="sexo" id="" value="H"> Hombre
+                <input type="radio" name="sexo" id="" value="M"> Mujer
+                <input type="radio" name="sexo" id="" value="O"> Otro
+                <span>Fecha de nacimiento:</span>
+                <input type="date" name="" id="">
+            </fieldset> 
+            <fieldset>Seleccione una de las siguientes opciones:
+                <span><select name="personajes">
+                <option value="0"></option>
+                <option value="1">Jessie Pinkman</option>
+                <option value="2">Walter White</option>
+                <option value="3">Saul Goodman</option>
+                <option value="4">Gustavo Fring</option>
+                <option value="5">Pollos Hermanos</option>
+                <option value="6">Otros personajes</option>
+                </select>
+            </fieldset>
+            <fieldset>Comentarios: 
+                <span><textarea cols="81" rows="10" placeholder="Deja aquí tu comentario."></textarea>
+            </fieldset>
+            Selecciona el archivo que desees adjuntar:<input type="file" name="adjunto">
+            <span><input type="reset" value="Borrar">
+            <span><input type="submit" value="Enviar">
+            
+        </fieldset>
+    </form>
+</body>
+</html>

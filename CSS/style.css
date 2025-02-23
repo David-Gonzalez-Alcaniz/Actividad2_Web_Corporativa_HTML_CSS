@@ -1,0 +1,178 @@
+@font-face {
+    font-family: "Tipografia Breaking Bad";
+    src: url(../Font/Breaking\ Bad.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.bodyindex{
+    background-image: url("../IMG/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Tipografia Breaking Bad";
+    font-size: 40px;
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+
+div {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#cuadrado{
+    width: 200px;
+    height: 200px;
+}
+
+#poster{
+    width: 700px;
+    height: 300px;
+    border: 10px outset;
+    border-color: brown;
+    border-radius: 22px;
+    margin-top: 1rem;
+}
+
+.bodyformulario{
+    background-image: url("../IMG/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+h1 {
+    margin-left: 40px;
+}
+
+input {
+    margin-bottom: 1rem;
+}
+
+fieldset {
+    border-radius: 5px;
+}
+
+span {
+    display: block;
+}
+
+#fondoform{
+    border-color: white;
+    width: 650px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bodytabla{
+    background-color: #0c3e11;
+    background-position: center;
+    text-align: center;
+    margin: auto;
+}
+
+.tabla{
+    background-color: black;
+    width: 770px;
+    height: 560px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin: auto;
+    border-spacing: 6px;
+}
+
+.tabla2{
+    background-color: black;
+    width: 700px;
+    height: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin: auto;
+    border-spacing: 6px;
+}
+
+.letrapequeña{
+    font-size: 10px;
+    display: block;
+    margin: auto;
+}
+
+.tr{
+    height: 70px;
+    background-color: #d6e980;
+}
+
+.tr2{
+    height: 70px;
+    background-color: #c0c630;
+}
+
+.td{
+    width: 70px;
+}
+
+.tdcolor1{
+    width: 70px;
+    background-color: #b8d73d;
+
+}
+
+.tdcolor2{
+    width: 70px;
+    background-color: black;
+}
+
+.tdcolor3{
+    width: 70px;
+    background-color: #818d51;
+}
+
+.tdcolor4{
+    width: 70px;
+    background-color: #bcc49b;
+}
+
+.tdcolor5{
+    width: 70px;
+    background-color: #eff6ca;
+}
+
+.tdcolor6{
+    width: 70px;
+    background-color: #89a418;
+}
+
+.tdcolor7{
+    width: 70px;
+    background-color: #63702b;
+}
+
+.tdcolor8{
+    width: 70px;
+    background-color: #aa8fcc;
+}
+
+.tdcolor9{
+    width: 70px;
+    background-color: #d6e980;
+}
+
+#imgtabla{
+    height: 55px;
+    width: 55px;
+}
+
+.container{
+    display: block;
+    flex-flow: row;
+    height: 100%;
+    background-image: url(../IMG/Tabla\ Periódica/hankschrader.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
